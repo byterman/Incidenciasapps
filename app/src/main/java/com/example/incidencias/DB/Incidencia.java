@@ -22,9 +22,6 @@ public class Incidencia {
     public String getID(){
         return id;
     }
-    public void setID(String id){
-        this.id = "JDA-" + id;
-    }
 
 }
 

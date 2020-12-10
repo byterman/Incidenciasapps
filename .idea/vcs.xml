@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/appincidencias" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/incidenciasappapp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/inciencias2.0" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/taestas" vcs="Git" />
   </component>
 </project>

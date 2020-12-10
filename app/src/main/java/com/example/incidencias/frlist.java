@@ -19,7 +19,7 @@ public class frlist extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View flistar =  inflater.inflate(R.layout.fragment_frlist, container, false);
-        /*
+
         recyclerViewincidencias=(RecyclerView)flistar.findViewById(R.id.recyclelist);
         recyclerViewincidencias.setLayoutManager(new LinearLayoutManager(getContext()));
 
@@ -27,8 +27,8 @@ public class frlist extends Fragment {
 
         recyclerViewAdaptador=new RecyclerViewAdaptador( getContext(), incidenciaDBHelper.mostrarincidencias());
         recyclerViewincidencias.setAdapter(recyclerViewAdaptador);
-        */
 
+        /*
         recyclerViewincidencias = (RecyclerView)flistar.findViewById(R.id.recyclelist);
         LinearLayoutManager manager = new LinearLayoutManager(getContext());
         recyclerViewincidencias.setLayoutManager(manager);
@@ -38,7 +38,7 @@ public class frlist extends Fragment {
 
         recyclerViewAdaptador=new RecyclerViewAdaptador( getContext(), incidenciaDBHelper.mostrarincidencias());
         recyclerViewincidencias.setAdapter(recyclerViewAdaptador);
-
+        */
         return inflater.inflate(R.layout.fragment_frlist, container, false);
     }
 }
