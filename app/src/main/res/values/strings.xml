@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Incidencias</string>
+    <string name="todo">TODO</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string-array name="numbers">
+        <item>Alta</item>
+        <item>Mitjana</item>
+        <item>Baixa</item>
+    </string-array>
+
+
+
+    <string name="alerta_titulo">Completado</string>
+    <string name="alerta_titulo_error">ERROR</string>
+    <string name="alert_mensaje_error">No puede estar vacia la descripcion</string>
+
+</resources>
