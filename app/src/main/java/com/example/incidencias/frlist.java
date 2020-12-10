@@ -39,6 +39,7 @@ public class frlist extends Fragment {
         recyclerViewAdaptador=new RecyclerViewAdaptador( getContext(), incidenciaDBHelper.mostrarincidencias());
         recyclerViewincidencias.setAdapter(recyclerViewAdaptador);
         */
+
         return inflater.inflate(R.layout.fragment_frlist, container, false);
     }
 }
